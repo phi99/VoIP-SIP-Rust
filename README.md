@@ -1,14 +1,12 @@
-**In Progress**
+Progress**
 
-	 	 	   ----------------------------------------------------------------
-	     	    	     ** Simple Kubernetes (K8s) Controller using shell script **
-	  	 	   ----------------------------------------------------------------
+	 	 	   ---------------------------------------------------------------------------------------------------------
+	     	    	     ** Container Orchestrator Kubernetes (K8s) Internals and implementing basic Container orchestrator **
+	  	 	   ---------------------------------------------------------------------------------------------------------
 
 
 ```text
-Functionality/Mechanism
-------------------------
-The controller watches events from the api server targetting change in configmap. When the annotation in configmap is modified with words that match with the label of the pod, the controller would request the list of pods containing that label to the api server, and then delete those pods.
+Container Orchestrator such as Kubernetes, etc, are basically system that manages containers such as deploying, scaling , etc and also provide automation features. It usually consists of
 ```
 
 ```text
